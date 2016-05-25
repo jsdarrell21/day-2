@@ -48,22 +48,3 @@ footer{
   color: white;
   border: 3px solid black;
 }
-
-/*Media Queries*/
-@media screen and (max-width : 768px) {
-  .container-fluid, .header, .nav, .content, .aside, .promo, footer {
-    background-color: green;
-    color: red;
-    text-shadow: 1px 1px 1px white;
-    border: 3px solid white;
-  }
-}
-
-@media screen and (max-width : 375px) {
-  .container-fluid, .header, .nav, .content, .aside, .promo, footer {
-    background-color: blue;
-    color: yellow;
-    text-shadow: 1px 1px 1px black;
-    border: 3px solid black;
-  }
-}
