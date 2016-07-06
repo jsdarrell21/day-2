@@ -1,9 +1,8 @@
 body {
   min-height: 100vh;
   color: #fff;
-  text-shadow: 2px 2px 2px #000;
+  text-shadow: 1px 1px 1px #000;
 }
-
 .border {
   background-color: #000;
   border: 1px solid #fff;
@@ -43,5 +42,51 @@ body {
   background-color: #444;
   border: 1px solid #fff;
   padding: 25px;
-  margin-top: 25px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .border {
+    background-color: #444;
+  }
+
+  .header, .footer {
+    background-color: #000;
+  }
+
+  .title, .closer {
+    background-color: purple;
+  }
+
+  .center {
+    background-color: blue;
+  }
+
+  .info {
+    background-color: darkred;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+
+  .border {
+    background-color: #000;
+  }
+
+  .header, .footer {
+    background-color: #444;
+  }
+
+  .title, .closer {
+    background-color: darkred;
+  }
+
+  .center {
+    background-color: purple;
+  }
+
+  .info {
+    background-color: blue;
+  }
 }
