@@ -1,70 +1,46 @@
-/*Main Styles*/
-.container-fluid{
-  background-color: #222;
-  padding: 30px;
-  border: 3px solid black;
-  color: white;
-  font-style: italic;
-  text-shadow: 1px 1px 1px black;
+body {
+  min-height: 100vh;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
 }
-
-.header{
+.border {
+  background-color: #000;
+  border: 1px solid #fff;
+  padding: 25px;
+}
+.header {
   background-color: #444;
-  padding: 30px;
-  border: 3px solid black;
+  border: 1px solid #fff;
+  padding: 25px;
 }
 
-.nav{
-  background-color: #bbb;
-  padding: 30px;
-  border: 3px solid black;
-  height: 100px;
+.title {
+  background-color: blue;
+  border: 1px solid #fff;
+  padding: 25px;
 }
 
-.content{
+.center {
+  background-color: darkred;
+  border: 1px solid #fff;
+  padding: 25px;
+}
+
+.info {
+  background-color: purple;
+  border: 1px solid #fff;
+  padding: 25px;
+}
+
+.closer {
+  background-color: blue;
+  border: 1px solid #fff;
+  padding: 25px;
+}
+
+.footer {
   background-color: #444;
-  padding: 30px;
-  border: 3px solid black;
-  height: 300px;
-}
-
-.aside{
-  background-color: #444;
-  padding: 30px;
-  border: 3px solid black;
-  height: 300px;
-}
-
-.promo{
-  background-color: #bbb;
-  padding: 30px;
-  border: 3px solid black;
-  height: 300px;
-}
-
-footer{
-  background-color: #444;
-  padding: 30px;
-  height: 100px;
-  color: white;
-  border: 3px solid black;
-}
-
-/*Media Queries*/
-@media screen and (max-width : 768px) {
-  .container-fluid, .header, .nav, .content, .aside, .promo, footer {
-    background-color: green;
-    color: red;
-    text-shadow: 1px 1px 1px white;
-    border: 3px solid white;
-  }
-}
-
-@media screen and (max-width : 375px) {
-  .container-fluid, .header, .nav, .content, .aside, .promo, footer {
-    background-color: blue;
-    color: yellow;
-    text-shadow: 1px 1px 1px black;
-    border: 3px solid black;
-  }
+  border: 1px solid #fff;
+  padding: 25px;
+  margin-top: 25px;
 }
